@@ -39,6 +39,7 @@ CREATE OR REPLACE VIEW `involuted-river-455616-u4.L3.L3_product` AS
 SELECT
   pp.product_purchase_id,
   pp.product_id,
+  pp.contract_id,
   p.product_name,
   p.product_type,
   pp.product_valid_from,
